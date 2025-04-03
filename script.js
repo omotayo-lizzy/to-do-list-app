@@ -1,0 +1,1 @@
+let taskInput = document.querySelector("input");
