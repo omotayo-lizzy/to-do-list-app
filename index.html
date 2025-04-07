@@ -3,20 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TO DO LIST</title>
+    <title>TO DO LIST APP</title>
+    <link rel="stylesheet" href="./css/index.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<link rel="stylesheet" href="./css/index.css">
-<body>
-    <div id="container">
-        <h2 id="to-do">TO DO LIST</h2>
-        <div class="input"><input type ="text" id="taskbar"placeholder="Tasks for today">
-        <button id="btn">enter</button>
-    </div>
-        
 
-        <div id="inputField"><div id="taskContainer"><ul id=""></ul></div>
-    
+
+
+<body>
+   <div id="container">
+        <h2 id="to-do">TODO LIST APP <i class="fa-solid fa-pen-to-square"></i></h2>
+        <div class="input-container">
+            <input type ="text" id="taskbar"placeholder="Tasks for today...">
+        <button id="btn"><p class="emoji"><i class="fa-solid fa-plus"></i></p></button>
     </div>
+    <p id="error-msg">Input field empty</p>
+
+
+
+
+<div id="inputField"><div id="taskContainer"></ul></div>  
+
+</div>
+        
+       
+
 
     <script src="./script.js"></script>
 </body>
